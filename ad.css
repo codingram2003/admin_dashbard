@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    display: flex;
+    background-color: rgb(241, 237, 237);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.nav {
+    width: 23vw;
+    height: 100vh;
+    background-color: rgb(89, 137, 249);
+    color: beige;
+    font-weight: 1000;
+    font-family: Helvetica, sans-serif;
+}
+
+.dash{
+    padding-left: 10%;
+    display: flex;
+    padding-top: 7%;
+    align-items: center;
+    background-color: rgb(67, 122, 251);
+    padding-bottom: 7%;
+}
+
+h2{
+    font-size: 1.3em;
+    
+}
+
+svg{
+    padding-right: 4%;
+}
+
+.nav-grid {
+    padding-top: 7%;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(11, 30px);
+    row-gap: 15px;
+    font-weight: 300;
+    font-family: Helvetica;
+    align-items: center;
+}
+
+.nav-grid > p{
+    font-size: 1.32em;
+}
+
+.head1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+
+#search{
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#bell {
+    padding-left: 50vw;
+}
+ 
+.head2{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.b3{
+    margin-left: 30px;
+    border-color: rgb(89, 137, 249);
+    border-radius: 15px;
+    background-color: rgb(89, 137, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 80px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.projects{
+    padding-left: 30px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-template-rows: repeat(3, 175px);
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+.pros{
+    border-left: 8px solid rgb(0, 255, 34);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(194, 193, 193) ;
+}
+
+.main-flex{
+    display: flex;
+    align-items: center;
+}
+
+.at{
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement{
+    margin-bottom: 50px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.announcements{
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(194, 193, 193);
+    padding: 15px;
+    font-size: 0.7em;
+}
+
+.announcements:last-child{
+    border-bottom: 0px;
+}
+
+.announcements > h1 {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.trending{
+    width: 30vh;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.trendings{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    border-bottom: 1px solid rgb(194, 193, 193);
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendings:last-child{
+    border-bottom: 0px;
+}
